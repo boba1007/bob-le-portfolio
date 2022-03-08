@@ -2,6 +2,10 @@
 
 Bob Le's software engineer personal portfolio.
 
+Live site: 
+- https://www.onlyboble.com/
+- https://bob-le-portfolio.vercel.app/
+
 ## Installation
 
 Use the package manager [npm] to install project.
@@ -12,11 +16,15 @@ npm install
 
 ## Usage
 
-# Local Dev
+Local Dev
+```bash
 npm run dev
+```
 
-# Production Build
+Production Build
+```bash
 npm run build
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
