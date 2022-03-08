@@ -40,7 +40,7 @@ const PanelContent = () => {
 					<span className='text'>I’m available for a new project. Hire me</span>
 				</a>
 			</div>
-			<p style={{ textAlign: "center", marginTop: "30px" }}>
+			<div style={{ textAlign: "center", marginTop: "30px" }}>
 				<p style={{fontFamily:"serif", fontWeight:"bold", padding:"7px"}}>("Hello World!")</p>
 				You do not know me,
 				<br />
@@ -53,7 +53,7 @@ const PanelContent = () => {
 				<a href='#contact' style={{ color: "#44993b" }}>
 					Contact me.
 				</a>
-			</p>
+			</div>
 		</div>
 	);
 };
