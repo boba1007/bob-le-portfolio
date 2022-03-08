@@ -205,7 +205,7 @@ a:focus {
 .resumo_fn_right .title_holder h3{
 	margin: 0;
 	padding: 0 10px;
-	font-size: 30px;
+	font-size: 24px;
 	min-height: 36px;
 	position: relative;
 }
@@ -213,7 +213,7 @@ a:focus {
 	font-weight: 400;
 }
 .animated_title{
-	font-size: 27px;
+	font-size: 24px;
 }
 .animated_title:before,
 .animated_title:after{
@@ -221,7 +221,7 @@ a:focus {
     top: 0;
     color: #44993b;
 	animation: opacity 3s infinite;
-	font-size: 25px;
+	font-size: 24px;
 }
 @keyframes opacity {
   0%, 100% {opacity:0;}

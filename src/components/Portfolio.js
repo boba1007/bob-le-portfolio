@@ -41,7 +41,7 @@ const Portfolio = () => {
 							data-index={1}>
 							<div className='img_holder'>
 								<img src='img/thumb/square.jpg' alt='image' />
-								<div className='abs_img' data-bg-img='img/portfolio/6.jpg' />
+								<div className='abs_img' data-bg-img='img/portfolio/1.jpg' />
 							</div>
 							<div className='title_holder'>
 								<p>web, responsive</p>
@@ -54,7 +54,7 @@ const Portfolio = () => {
 								<h3 className='fn__title'>Forever Essential</h3>
 								<div className='img_holder'>
 									<img src='img/thumb/square.jpg' alt='image' />
-									<div className='abs_img' data-bg-img='img/portfolio/6.jpg' />
+									<div className='abs_img' data-bg-img='img/portfolio/1.jpg' />
 								</div>
 								<p className='fn__desc'>
 									Forever Essential is both a digital and a physical memorial
@@ -76,7 +76,7 @@ const Portfolio = () => {
 							data-index={2}>
 							<div className='img_holder'>
 								<img src='img/thumb/square.jpg' alt='image' />
-								<div className='abs_img' data-bg-img='img/portfolio/1.jpg' />
+								<div className='abs_img' data-bg-img='img/portfolio/2.jpg' />
 							</div>
 							<div className='title_holder'>
 								<p>web, responsive, campaign</p>
@@ -89,7 +89,7 @@ const Portfolio = () => {
 								<h3 className='fn__title'>The Georgia Voter Guide</h3>
 								<div className='img_holder'>
 									<img src='img/thumb/square.jpg' alt='image' />
-									<div className='abs_img' data-bg-img='img/portfolio/1.jpg' />
+									<div className='abs_img' data-bg-img='img/portfolio/2.jpg' />
 								</div>
 								<p className='fn__desc'>
 									A personalized voter guide with intelligent ballot
@@ -111,7 +111,7 @@ const Portfolio = () => {
 							data-index={3}>
 							<div className='img_holder'>
 								<img src='img/thumb/square.jpg' alt='image' />
-								<div className='abs_img' data-bg-img='img/portfolio/2.jpg' />
+								<div className='abs_img' data-bg-img='img/portfolio/3.jpg' />
 							</div>
 							<div className='title_holder'>
 								<p>web, responsive</p>
@@ -124,7 +124,7 @@ const Portfolio = () => {
 								<h3 className='fn__title'>Healthcare Rising Arizona</h3>
 								<div className='img_holder'>
 									<img src='img/thumb/square.jpg' alt='image' />
-									<div className='abs_img' data-bg-img='img/portfolio/2.jpg' />
+									<div className='abs_img' data-bg-img='img/portfolio/3.jpg' />
 								</div>
 								<p className='fn__desc'>
 									The leading voice for strengthening Arizona’s healthcare
@@ -145,7 +145,7 @@ const Portfolio = () => {
 							data-index={4}>
 							<div className='img_holder'>
 								<img src='img/thumb/square.jpg' alt='image' />
-								<div className='abs_img' data-bg-img='img/portfolio/3.jpg' />
+								<div className='abs_img' data-bg-img='img/portfolio/4.jpg' />
 							</div>
 							<div className='title_holder'>
 								<p>web, responsive, campaign</p>
@@ -158,7 +158,7 @@ const Portfolio = () => {
 								<h3 className='fn__title'>Our Choice Central Oregon</h3>
 								<div className='img_holder'>
 									<img src='img/thumb/square.jpg' alt='image' />
-									<div className='abs_img' data-bg-img='img/portfolio/3.jpg' />
+									<div className='abs_img' data-bg-img='img/portfolio/4.jpg' />
 								</div>
 								<p className='fn__desc'>
 									A simple and clear side-by-side comparison of the State Senate
@@ -176,7 +176,7 @@ const Portfolio = () => {
 							data-index={5}>
 							<div className='img_holder'>
 								<img src='img/thumb/square.jpg' alt='image' />
-								<div className='abs_img' data-bg-img='img/portfolio/4.jpg' />
+								<div className='abs_img' data-bg-img='img/portfolio/5.jpg' />
 							</div>
 							<div className='title_holder'>
 								<p>web, responsive, campaign</p>
@@ -189,7 +189,7 @@ const Portfolio = () => {
 								<h3 className='fn__title'>The Oregon Voter Guide</h3>
 								<div className='img_holder'>
 									<img src='img/thumb/square.jpg' alt='image' />
-									<div className='abs_img' data-bg-img='img/portfolio/4.jpg' />
+									<div className='abs_img' data-bg-img='img/portfolio/5.jpg' />
 								</div>
 								<p className='fn__desc'>
 									Simple and clear information about Oregon’s 2020 ballot
@@ -208,7 +208,7 @@ const Portfolio = () => {
 							data-index={6}>
 							<div className='img_holder'>
 								<img src='img/thumb/square.jpg' alt='image' />
-								<div className='abs_img' data-bg-img='img/portfolio/5.jpg' />
+								<div className='abs_img' data-bg-img='img/portfolio/6.jpg' />
 							</div>
 							<div className='title_holder'>
 								<p>web, responsive</p>
@@ -221,7 +221,7 @@ const Portfolio = () => {
 								<h3 className='fn__title'>Stellar Capture</h3>
 								<div className='img_holder'>
 									<img src='img/thumb/square.jpg' alt='image' />
-									<div className='abs_img' data-bg-img='img/portfolio/5.jpg' />
+									<div className='abs_img' data-bg-img='img/portfolio/6.jpg' />
 								</div>
 								<p className='fn__desc'>
 									A team led by career veterans of digital product design and
