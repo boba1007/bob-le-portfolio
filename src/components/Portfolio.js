@@ -232,6 +232,144 @@ const Portfolio = () => {
 								</p>
 							</div>
 						</SwiperSlide>
+						<SwiperSlide
+							className='item modal_item'
+							onClick={() => {
+								setModal(true);
+								setModalValue(7);
+							}}
+							data-index={7}>
+							<div className='img_holder'>
+								<img src='img/thumb/square.jpg' alt='image' />
+								<div className='abs_img' data-bg-img='img/portfolio/7.jpg' />
+							</div>
+							<div className='title_holder'>
+								<p>web, mobile app, api</p>
+								<h3>
+									<a href='#'>World's Greatest Videos</a>
+								</h3>
+							</div>
+							<div className='fn__hidden'>
+								<p className='fn__cat'>web, mobile app, api</p>
+								<h3 className='fn__title'>World's Greatest Videos</h3>
+								<div className='img_holder'>
+									<img src='img/thumb/square.jpg' alt='image' />
+									<div className='abs_img' data-bg-img='img/portfolio/7.jpg' />
+								</div>
+								<p className='fn__desc'>
+									World's Greatest Videos™ is the first global, cash-awarded,
+									continually running, short video competition. Having given
+									away over $300,000 in cash prizes with our Regional Weekly
+									Contests and Global Challenge Contests, World’s Greatest
+									Videos™ brings the world together through video to provide
+									positive, daily entertainment to the largest possible
+									audience. 
+								</p>
+							</div>
+						</SwiperSlide>
+						<SwiperSlide
+							className='item modal_item'
+							onClick={() => {
+								setModal(true);
+								setModalValue(8);
+							}}
+							data-index={8}>
+							<div className='img_holder'>
+								<img src='img/thumb/square.jpg' alt='image' />
+								<div className='abs_img' data-bg-img='img/portfolio/8.jpg' />
+							</div>
+							<div className='title_holder'>
+								<p>web, responsive</p>
+								<h3>
+									<a href='#'>Complete Chess Education</a>
+								</h3>
+							</div>
+							<div className='fn__hidden'>
+								<p className='fn__cat'>web, responsive</p>
+								<h3 className='fn__title'>Complete Chess Education</h3>
+								<div className='img_holder'>
+									<img src='img/thumb/square.jpg' alt='image' />
+									<div className='abs_img' data-bg-img='img/portfolio/8.jpg' />
+								</div>
+								<p className='fn__desc'>
+									Complete Chess is proud to be the first and only full-time
+									chess facility in San Antonio, Texas. Located on the North
+									West side of the Alamo City, Complete Chess is packed with
+									chess sets, chess clocks, and educational materials to create
+									the optimal environment to study, practice, and play the mind
+									game we all love.
+								</p>
+							</div>
+						</SwiperSlide>
+						<SwiperSlide
+							className='item modal_item'
+							onClick={() => {
+								setModal(true);
+								setModalValue(9);
+							}}
+							data-index={9}>
+							<div className='img_holder'>
+								<img src='img/thumb/square.jpg' alt='image' />
+								<div className='abs_img' data-bg-img='img/portfolio/9.jpg' />
+							</div>
+							<div className='title_holder'>
+								<p>web, responsive</p>
+								<h3>
+									<a href='#'>Rodrigo Pinheiro Brazilian Jiu Jitsu</a>
+								</h3>
+							</div>
+							<div className='fn__hidden'>
+								<p className='fn__cat'>web, responsive</p>
+								<h3 className='fn__title'>
+									Rodrigo Pinheiro Brazilian Jiu Jitsu
+								</h3>
+								<div className='img_holder'>
+									<img src='img/thumb/square.jpg' alt='image' />
+									<div className='abs_img' data-bg-img='img/portfolio/9.jpg' />
+								</div>
+								<p className='fn__desc'>
+									Learn from Black Belt World Champion, Rodrigo Pinheiro from
+									Gracie Humaita. Trained under Royler Gracie, Rodrigo has been
+									practicing Brazilian Jiu-Jitsu for over 25 years and received
+									his black belt over 15 years ago.
+								</p>
+							</div>
+						</SwiperSlide>
+						<SwiperSlide
+							className='item modal_item'
+							onClick={() => {
+								setModal(true);
+								setModalValue(10);
+							}}
+							data-index={10}>
+							<div className='img_holder'>
+								<img src='img/thumb/square.jpg' alt='image' />
+								<div className='abs_img' data-bg-img='img/portfolio/10.jpg' />
+							</div>
+							<div className='title_holder'>
+								<p>web, responsive</p>
+								<h3>
+									<a href='#'>Rio City Real Estate Inspections, PLLC</a>
+								</h3>
+							</div>
+							<div className='fn__hidden'>
+								<p className='fn__cat'>web, responsive</p>
+								<h3 className='fn__title'>
+									Rio City Real Estate Inspections, PLLC
+								</h3>
+								<div className='img_holder'>
+									<img src='img/thumb/square.jpg' alt='image' />
+									<div className='abs_img' data-bg-img='img/portfolio/10.jpg' />
+								</div>
+								<p className='fn__desc'>
+									Rio City Real Estate Inspections, PLLC was founded on the
+									premise of “Absolute Commitment to Exceptional Service”. With
+									combined team experience of more than eighty years of
+									corporate management, customer service, technology and real
+									estate experience, our work ethic is second to none.
+								</p>
+							</div>
+						</SwiperSlide>
 					</Swiper>
 				</div>
 			</div>
