@@ -8,24 +8,24 @@ const Modalbox = ({ close, value }) => {
       tag: "web, responsive",
       desc: [
         { p: "Forever Essential is both a digital and a physical memorial honoring California healthcare workers who we’ve lost to COVID-19. Through this memorial, we hope to transform our private pain into public dignity and to carry forward the legacies of those we’ve lost. The physical memorial will make stops in cities across California, offering a space for our community to remember and grieve." }
-      ]
-
+      ],
+      link: "https://foreveressential.org/"
     },
     {
       name: "The Georgia Voter Guide",
       tag: "web, responsive, campaign", 
       desc: [
         { p: "A personalized voter guide with intelligent ballot determination based on address input. The Georgia Voter Guide provided Georgian voters with the information they needed to cast their votes with confidence in the 2020 General Election and Georgia special runoff election. Helped over 500,000 unique visitors get informed about their election choices, with over 50,000 unique visitors on election days."}
-      ]
-
+      ],
+      link: "https://thegeorgiavoterguide.com/"
     },
     {
       name: "Healthcare Rising Arizona",
       tag: "web, responsive",
       desc: [
         { p: "The leading voice for strengthening Arizona’s healthcare system. We fight for the rights and protections of healthcare workers and patients across the state. We bring together the voices of everyone who is impacted by our healthcare system and use our collective power to push for real policy change to make our healthcare system better." },
-      ]
-
+      ],
+      link: "https://www.healthcarerisingaz.org/"
     },
     {
       name: "Our Central Oregon",
@@ -40,16 +40,16 @@ const Modalbox = ({ close, value }) => {
       tag: "web, responsive, campaign",
       desc: [
         { p: "Simple and clear information about Oregon’s 2020 ballot presented by a coalition of organizations dedicated to promoting economic fairness, public education, healthcare access, and environmental justice."},
-      ]
-
+      ],
+      link: "https://theoregonvoterguide.com/"
     },
     {
       name: "Stellar Capture",
       tag: "web, responsive",
       desc: [
         { p: "A team led by career veterans of digital product design and development to create meaningful solutions. Equipped with the knowledge and hands-on experience of today’s modern tools and technologies, we strive to innovate and create the highest quality products possible." }
-      ]
-
+      ],
+      link: "https://stellarcapture.com/"
     },
     {
       name: "World's Greatest Videos",
@@ -64,24 +64,24 @@ const Modalbox = ({ close, value }) => {
       tag: "web, responsive",
       desc: [
         { p: "Complete Chess is proud to be the first and only full-time chess facility in San Antonio, Texas. Located on the North West side of the Alamo City, Complete Chess is packed with chess sets, chess clocks, and educational materials to create the optimal environment to study, practice, and play the mind game we all love." }
-      ]
-
+      ],
+      link: "https://completechesseducation.com/"
     },
     {
       name: "Rodrigo Pinheiro Brazilian Jiu Jitsu",
       tag: "web, responsive",
       desc: [
         { p: "Learn from Black Belt World Champion, Rodrigo Pinheiro from Gracie Humaita. Trained under Royler Gracie, Rodrigo has been practicing Brazilian Jiu-Jitsu for over 25 years and received his black belt over 15 years ago." }
-      ]
-
+      ],
+      link: "https://rodrigopinheirobjj.com/"
     },
     {
       name: "Rio City Real Estate Inspections, PLLC",
       tag: "web, responsive",
       desc: [
         { p: "Rio City Real Estate Inspections, PLLC was founded on the premise of “Absolute Commitment to Exceptional Service”. With combined team experience of more than eighty years of corporate management, customer service, technology and real estate experience, our work ethic is second to none." }
-      ]
-
+      ],
+      link: "https://riocityinspections.com/"
     },
   ];
 
@@ -131,6 +131,9 @@ const Modalbox = ({ close, value }) => {
                         {des.p}
                       </p>
                     ))}
+                    {d.link && (
+                      <a href={d.link} target="_blank" style={{ color: "#987750" }}>Live Website</a>
+                    )}
                   </div>
                 )
             )}
