@@ -39,6 +39,11 @@ const Nav = ({ close, trigger }) => {
                   Services
                 </a>
               </li>
+              <li style={{ transitionDelay: !trigger ? "0ms" : "1300ms" }}>
+                <a onClick={() => close()} href="#video-intro">
+                  Intro
+                </a>
+              </li>
               <li style={{ transitionDelay: !trigger ? "0ms" : "1900ms" }}>
                 <a onClick={() => close()} href="#contact">
                   Contact
