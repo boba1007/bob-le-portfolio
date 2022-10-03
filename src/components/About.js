@@ -80,7 +80,7 @@ const About = () => {
 						<div className='about_right'>
 							{/* Download CV Button */}
 							<div className='resumo_fn_cv_btn'>
-								<a href='img/Bob_Le_Resume22.pdf' download>
+								<a href="resources/Bob_Le_CV.pdf" download>
 									<span className='icon'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
@@ -171,7 +171,7 @@ const About = () => {
 											<div className='item'>
 												<div className='item_top'>
 													<h5>Complete Chess, LLC, San Antonio, TX</h5>
-													<span>( 2017 — Today )</span>
+													<span>( 2017 — 2022 )</span>
 												</div>
 												<h3>Co-Founder & Webmaster</h3>
 												<p>
