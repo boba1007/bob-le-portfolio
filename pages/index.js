@@ -4,6 +4,7 @@ import Home from "../src/components/Home";
 import Portfolio from "../src/components/Portfolio";
 import Services from "../src/components/Services";
 import Layout from "../src/layouts/Layout";
+import VideoIntro from "../src/components/VideoIntro";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <Services />
       {/* /Services Section */}
       {/* Contact Section */}
+      <VideoIntro/>
       <Contact />
       {/* /Contact Section */}
     </Layout>
