@@ -308,6 +308,14 @@ a:focus {
 .resumo_fn_right .right_bottom a:hover{
 	color: #ccc;
 }
+.resumo_fn_right svg.dark-mode-toggle{
+	position: absolute;
+	z-index: 55;
+	text-decoration: none;
+	right: 150px;
+	top: 40px;
+}
+
 .resumo_fn_right .menu_trigger{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -2119,6 +2127,13 @@ a:focus {
 		bottom: auto;
 		border-left: none;
 	}
+	.resumo_fn_right svg.dark-mode-toggle{
+		position: fixed;
+		padding: 5px;
+    right: 10px;
+    top: 50px;
+	}
+
 	.resumo_fn_right .menu_trigger{
 		position: fixed;
 		padding: 5px;
