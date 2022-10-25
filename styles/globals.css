@@ -32,8 +32,9 @@
   padding: 30px;
 }
 .light #send_message {
-  border-color: rgba(0, 0, 0, 0.2);
-  color: #333;
+  border-color: var(--ds);
+  color: var(--dc);
+  border-width: 1px;
 }
 #send_message:hover {
   border-color: var(--mc);
@@ -46,11 +47,10 @@ html {
 .h3 {
   margin: 0;
   padding: 0 10px;
-  min-height: 36px;
   position: relative;
   font-family: Jost;
   color: #ddd;
 }
 .light .h3 {
-  color: #000;
+  color: var(--ds);
 }

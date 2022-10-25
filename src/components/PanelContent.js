@@ -39,14 +39,11 @@ const PanelContent = () => {
 			<div className='right_bottom'>
 				<a href='#contact'>
 					<span className='circle' />
-					<span className='text'>I’m available for a new project. Hire me</span>
+					<span className='text'>I’m available for a new project. Contact me</span>
 				</a>
 			</div>
 			<div style={{ textAlign: "center", marginTop: "30px" }}>
 				<p>"He who has a why to live by can bear almost any how." - Friedrich Nietzche</p>
-				<a href='#contact' style={{ color: "#44993b" }}>
-					Contact me.
-				</a>
 			</div>
 		</div>
 	);

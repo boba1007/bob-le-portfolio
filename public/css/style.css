@@ -35,8 +35,11 @@
 /*	01) Base
 /*------------------------------------------------------------------*/
 :root{
-    --mc: #987750;
-	--tc: #888;
+  --mc: #fe0300;
+	--tc: #ffff00;
+	--sc: #f3f9f8;
+	--dc: #918F90;
+	--ds: #201521;
 }
 html {
 	overflow-x: hidden;
@@ -49,7 +52,7 @@ body{
 	line-height: 1.44;
 	letter-spacing: 0;
 	font-weight: 400;
-	color: #888;
+	color: var(--dc);
 	background-color: #0e0e0e;
 	
 	word-break: break-word;
@@ -113,6 +116,9 @@ a:focus {
 	.scrolled .resumo_fn_right{
 		width: 32%;
 	}
+	.scrolled .resumo_fn_right .right_in{
+		padding: 100px 12% 0;
+	}
 	.scrolled .resumo_fn_left{
 		width: 68%;
 	}
@@ -133,7 +139,7 @@ a:focus {
 .resumo_fn_right .right_in{
 	position: relative;
 	width: 100%;
-	padding: 100px 16%;
+	padding: 100px 18% 0;
 }
 .resumo_fn_right .title_holder,
 .resumo_fn_right .img_holder{
@@ -202,26 +208,26 @@ a:focus {
 	text-transform: uppercase;
 	margin-bottom: 8px;
 }
-.resumo_fn_right .title_holder h3{
+.resumo_fn_right .title_holder .h3{
 	margin: 0;
 	padding: 0 10px;
-	font-size: 24px;
-	min-height: 36px;
+	font-size: 18px;
+	min-height: 30px;
 	position: relative;
 }
 .scrolled .resumo_fn_right .title_holder h3{
 	font-weight: 400;
 }
 .animated_title{
-	font-size: 24px;
+	font-size: 18px;
 }
 .animated_title:before,
 .animated_title:after{
 	position: absolute;
-    top: 0;
-    color: #44993b;
+  top: 0;
+  color: var(--mc);
 	animation: opacity 3s infinite;
-	font-size: 24px;
+	font-size: 18px;
 }
 @keyframes opacity {
   0%, 100% {opacity:0;}
@@ -280,7 +286,7 @@ a:focus {
 	width: 10px;
 	height: 10px;
 	border-radius: 100%;
-	background-color: #44993b;
+	background-color: var(--mc);
 	left: 0;
 	top: 50%;
 	margin-top: -5px;
@@ -415,7 +421,7 @@ a:focus {
 	width: 40px;
 	height: 40px;
 	text-decoration: none;
-	color: #888;
+	color: var(--dc);
 	position: absolute;
 	right: 40px;
 	top: 40px;
@@ -433,7 +439,7 @@ a:focus {
 	position: absolute;
 	width: 42px;
 	height: 2px;
-	background-color: #888;
+	background-color: var(--dc);
 	transition: all 300ms ease;
 	perspective: 30px;
 }
@@ -461,7 +467,7 @@ a:focus {
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
-	color: #888;
+	color: var(--dc);
 	text-transform: uppercase;
 	font-weight: 800;
 	margin-bottom: 26px;
@@ -533,7 +539,7 @@ a:focus {
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
-	color: #888;
+	color: var(--dc);
 	width: 40px;
 	height: 40px;
 	background-color: rgba(255,255,255,.05);
@@ -685,7 +691,7 @@ a:focus {
 }
 .resumo_fn_about_info th:nth-child(1){
 	letter-spacing: 1px;
-	color: #888;
+	color: var(--dc);
 	font-weight: 500;
 	text-transform: uppercase;
 }
@@ -711,7 +717,7 @@ a:focus {
 	height: 220px;
 	text-decoration: none;
 	font-size: 18px;
-	color: #888;
+	color: var(--dc);
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -791,7 +797,7 @@ a:focus {
 .resumo_fn_tabs .tab_header a{
 	text-decoration: none;
 	display: inline-block;
-	color: #888;
+	color: var(--dc);
 	font-weight: 400;
 	font-size: 30px;
 	border-bottom: 1px solid transparent;
@@ -894,7 +900,7 @@ a:focus {
 	font-size: 16px;
 	line-height: 30px;
 	margin-left: 20px;
-	color: #888;
+	color: var(--dc);
 }
 .resumo_fn_boxed_list h3{
 	margin: 0;
@@ -958,7 +964,7 @@ a:focus {
 	position: relative;
 	z-index: 2;
 	line-height: 40px;
-	color: #888;
+	color: var(--dc);
 	margin-bottom: 1px;
 }
 .resumo_fn_progress_bar .item_in{
@@ -1030,7 +1036,7 @@ a:focus {
 .cursor-link{
     width: 30px;
     height: 30px;
-	margin-left: -15px;
+		margin-left: -15px;
     margin-top: -15px;
     border: 2px solid rgba(255,255,255,.5);
     z-index: 10000000;
@@ -1220,7 +1226,7 @@ a:focus {
 	display: -o-flex;
 	display: flex;
 	bottom: 30px;
-	z-index: 5;
+	z-index: 3;
 }
 .my__nav a{
 	width: 26px;
@@ -1245,7 +1251,7 @@ a:focus {
 }
 .my__nav span{
 	display: block;
-	background-color: #888;
+	background-color: var(--dc);
 	width: 26px;
 	height: 1px;
 	position: absolute;
@@ -1469,7 +1475,7 @@ a:focus {
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
-	color: #888;
+	color: var(--dc);
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -1555,7 +1561,7 @@ a:focus {
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: 500;
-	color: #888;
+	color: var(--dc);
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	line-height: 66px;
@@ -1661,7 +1667,7 @@ a:focus {
     margin: 0;
     padding-left: 30px;
     font-weight: 400;
-    color: #888;
+    color: var(--dc);
     transform-origin: left;
     z-index: 1;
     display: block;
@@ -1859,7 +1865,7 @@ a:focus {
 }
 .resumo_fn_totop span{
 	display: block;
-	background-color: #888;
+	background-color: var(--dc);
 	width: 1px;
 	height: 26px;
 	position: absolute;
@@ -2203,46 +2209,46 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	23) Light Version
 /*------------------------------------------------------------------*/
-body.light{background-color: #fff;color: #777;}
+body.light{background-color: #f3f9f8; color: #201521;}
 body.light h1,
 body.light h2,
 body.light h3,
 body.light h4,
 body.light h5,
-body.light h6{color: #000;}
-body.light .resumo_fn_right{border-left-color: rgba(0,0,0,0.2);}
-body.light .resumo_fn_main_title .title:after{background-color: rgba(0,0,0,0.3);}
+body.light h6{color: #201521;}
+body.light .resumo_fn_right{border-left-color: var(--dc);}
+body.light .resumo_fn_main_title .title:after{background-color: var(--mc);}
 body.light .resumo_fn_about_info th:nth-child(1){color: #333;}
-body.light .resumo_fn_about_info table th{color: #000;}
-body.light .resumo_fn_about_info table a{color: #000;border-bottom-color: rgba(0,0,0,.2);}
-body.light .resumo_fn_about_info table a:hover{border-color: rgba(0,0,0,.4)}
+body.light .resumo_fn_about_info table th{color: #201521;}
+body.light .resumo_fn_about_info table a{color: #201521;border-bottom-color: #201521;}
+body.light .resumo_fn_about_info table a:hover{border-color: #201521}
 body.light .resumo_fn_right .border1,
-body.light .resumo_fn_right .border2{border-color: rgba(0,0,0,.2)}
+body.light .resumo_fn_right .border2{border-color: var(--dc)}
 body.light .resumo_fn_right:hover .border1,
-body.light .resumo_fn_right:hover .border2{border-color: rgba(0,0,0,.3)}
-body.light .resumo_fn_cv_btn a{border-color: rgba(0,0,0,.2)}
+body.light .resumo_fn_right:hover .border2{border-color: var(--ds)}
+body.light .resumo_fn_cv_btn a{border-color: var(--dc)}
 body.light .resumo_fn_cv_btn a:hover{border-color: var(--mc);}
-body.light .resumo_fn_cv_btn .icon{color: #333;}
-body.light .resumo_fn_tabs .tab_header li:after{background-color: rgba(0,0,0,.2)}
+body.light .resumo_fn_cv_btn .icon{color: var(--ds);}
+body.light .resumo_fn_tabs .tab_header li:after{background-color: #201521}
 body.light .resumo_fn_service_list .item,
-body.light .resumo_fn_boxed_list .item{background-color: #fafafa;border-color: #ddd;}
-body.light .resumo_fn_boxed_list .item:after{background-color: rgba(0,0,0,.2)}
-body.light .resumo_fn_service_list .item_right{border-color: rgba(0,0,0,.05)}
-body.light .resumo_fn_partners a{background-color: #fafafa;}
+body.light .resumo_fn_boxed_list .item{background-color: #f3f9f8;border-color: #201521;}
+body.light .resumo_fn_boxed_list .item:after{background-color: transparent}
+body.light .resumo_fn_service_list .item_right{border-color: #201521}
+body.light .resumo_fn_partners a{background-color: #f3f9f8;}
 body.light .resumo_fn_partners a:hover{background-color: #eee;}
 body.light h1>a, 
 body.light h2>a,
 body.light h3>a,
 body.light h4>a,
 body.light h5>a,
-body.light h6>a{color: #000;}
+body.light h6>a{color: #201521;}
 body.light h1>a:hover,
 body.light h2>a:hover,
 body.light h3>a:hover,
 body.light h4>a:hover,
 body.light h5>a:hover,
 body.light h6>a:hover{color: var(--mc);}
-body.light .resumo_fn_blog_list .load_more a{border-color: rgba(0,0,0,.2)}
+body.light .resumo_fn_blog_list .load_more a{border-color: var(--ds)}
 body.light .resumo_fn_blog_list .load_more a:hover{border-color: var(--mc);}
 body.light input[type="text"],
 body.light input[type="phone"],
@@ -2261,7 +2267,7 @@ body.light input[type="tel"],
 body.light input[type="color"],
 body.light textarea,
 body.light .resumo_fn_contact .contact_form a,.contact_form .a,
-body.light .uneditable-input{border-color: rgba(0,0,0,.2);color: #333;}
+body.light .uneditable-input{border-color: var(--ds);color: #333;}
 body.light input[type="text"]:hover,
 body.light input[type="phone"]:hover,
 body.light input[type="password"]:hover,
@@ -2297,10 +2303,10 @@ body.light input[type="color"]:focus,
 body.light textarea:focus,
 body.light .uneditable-input:focus{border-color: var(--mc);}
 body.light .resumo_fn_contact .active .moving_placeholder{background-color: #fff;color: var(--mc);}
-body.light .fn__link{color: #333;border-bottom-color: rgba(0,0,0,0.2);}
+body.light .fn__link{color: #333;border-bottom-color: var(--dc);}
 body.light .fn__link:hover{border-bottom-color: rgba(0,0,0,0.4);}
 body.light #footer .footer_top:before,
-body.light #footer .footer_top:after{background-color: rgba(0,0,0,0.2);}
+body.light #footer .footer_top:after{background-color: var(--dc);}
 body.light .resumo_fn_contact .moving_placeholder{color: #999;}
 body.light .resumo_fn_contact .contact_form a:hover,body.light .resumo_fn_contact .contact_form .a:hover{border-color: var(--mc);color: var(--mc);}
 body.light .resumo_fn_right .menu_trigger{color: #333;}
@@ -2310,19 +2316,19 @@ body.light .resumo_fn_progress_bar .progress_percent{background-color: rgba(0,0,
 body.light .resumo_fn_progress_bar .progress_percent:after{border-top-color: rgba(0,0,0,.05);}
 body.light .resumo_fn_progress_bar .bg_wrap{background-color: #eee;}
 body.light .resumo_fn_right .right_bottom a{color: #333;}
-body.light .resumo_fn_right .right_bottom a:before{background-color: rgba(0,0,0,0.2)}
+body.light .resumo_fn_right .right_bottom a:before{background-color: var(--dc)}
 body.light .resumo_fn_right .right_bottom a:hover{color: #000;}
 body.light .resumo_fn_right .right_bottom a:hover:before{background-color: rgba(0,0,0,0.5)}
 body.light .resumo_fn_right .title_holder h5{color: #333;}
-body.light .resumo_fn_navigation{background-color: #fff;}
-body.light .resumo_fn_nav_overlay{background-color: #eee;}
+body.light .resumo_fn_navigation{background-color: var(--sc);}
+body.light .resumo_fn_nav_overlay{background-color: var(--dc);}
 body.light #nav .label{color: #777;}
 body.light #nav ul a{color: #333;}
 body.light #nav ul a:hover{color: var(--mc);}
 body.light .resumo_fn_navigation .social a{background-color: rgba(0,0,0,.05);color: #333;}
 body.light .resumo_fn_navigation .social a:hover{background-color: rgba(0,0,0,.1);}
 body.light .resumo_fn_navigation .copyright a{color: #333;}
-body.light .resumo_fn_navigation .copyright a:before{background-color: rgba(0,0,0,.2);}
+body.light .resumo_fn_navigation .copyright a:before{background-color: var(--ds);}
 body.light .resumo_fn_navigation .copyright a:hover:before{background-color: rgba(0,0,0,.5);}
 body.light .resumo_fn_testimonials .subtitle{color: #333;}
 body.light .resumo_fn_tabs .tab_header a{color: #333;}
@@ -2349,14 +2355,14 @@ body.light .dark.cursor-inner .fn-left:after,
 body.light .dark.cursor-inner .fn-left:before,
 body.light .dark.cursor-inner .fn-right:after,
 body.light .dark.cursor-inner .fn-right:before{background-color: rgba(255,255,255,.5);}
-body.light .resumo_fn_modalbox{background-color: rgba(255,255,255,.95)}
-body.light .resumo_fn_modalbox .box_inner{background-color: #fafafa;border-color: #ddd;}
+body.light .resumo_fn_modalbox{background-color: var(--dc)}
+body.light .resumo_fn_modalbox .box_inner{background-color: var(--sc);border-color: var(--ds);}
 body.light .fn__nav{border-top-color: #ddd;}
 body.light .fn__nav:after{background-color: #ddd;}
 body.light .fn__nav a{color: #333;}
 body.light .fn__nav a:hover{color: #111;}
 body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-color: #fafafa;}
-@media(max-width:768px){body.light .resumo_fn_right .menu_trigger{background-color: #fafafa;border: 1px solid #ddd;}}
+@media(max-width:768px){body.light .resumo_fn_right .menu_trigger{background-color: var(--sc);border: 1px solid var(--dc);}}
 
 
 
@@ -2422,7 +2428,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
     position: absolute;
     width: 25px;
     height: 2px;
-    background-color: #888;
+    background-color: var(--dc);
     transition: all 300ms ease;
     perspective: 30px;
 }
@@ -2617,7 +2623,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 }
 .fn__nav .arrow{
 	display: block;
-	background-color: #888;
+	background-color: var(--dc);
 	width: 26px;
 	height: 1px;
 	position: absolute;
