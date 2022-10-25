@@ -13,20 +13,30 @@ const Layout = ({ children }) => {
   const [isDarkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = (checked) => {
-    setDarkMode(checked);
+      if (checked) {
+        document.querySelector("body").classList.add("light");
+        window.localStorage.setItem('isDarkMode', false);
+      } else {
+        document.querySelector("body").classList.remove("light");
+        window.localStorage.setItem('isDarkMode', true);
+      }
+      setDarkMode(checked)
   };
 
   useEffect(() => {
-    if (!isDarkMode) {
-			document.querySelector("body").classList.add("light");
-		} else {
+    let savedDarkMode = window.localStorage.getItem('isDarkMode') || false;
+    if (savedDarkMode && savedDarkMode === 'true') {
 			document.querySelector("body").classList.remove("light");
+      setDarkMode(false)
+		} else {
+			document.querySelector("body").classList.add("light");
+      setDarkMode(true)
 		}
     dataImage();
     customCursor();
     aTagClick();
     window.addEventListener("scroll", sticky);
-  }, [isDarkMode]);
+  }, []);
   const triggerMenu = () => {
     setTrigger(!trigger);
     document.querySelector(".resumo_fn_wrapper").classList.toggle("nav-opened");
@@ -58,7 +68,7 @@ const Layout = ({ children }) => {
 							className="dark-mode-toggle"
 							checked={isDarkMode}
 							onChange={toggleDarkMode}
-              sunColor='#201521'
+              sunColor='#f3f9f8'
 							moonColor='#FE0300'
 							size={25}
 						/>
