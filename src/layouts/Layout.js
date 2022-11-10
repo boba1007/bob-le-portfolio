@@ -43,9 +43,6 @@ const Layout = ({ children }) => {
   };
   return (
 		<Fragment>
-			<Head>
-				<title>Bob Le - Software Engineer Portfolio</title>
-			</Head>
 			<div className='resumo_fn_wrapper'>
 				{/* MODALBOX */}
 				{/* <Modalbox /> */}
