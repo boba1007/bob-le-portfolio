@@ -13,7 +13,7 @@ const Home = () => {
 							clients. Talented in project management, team leadership and
 							independent problem-solving. 
 						</p>
-						<img src='img/signature.png' alt='image' />
+						<img src='img/signature.gif' alt='image' />
 					</div>
 					{/* /Main Title */}
 				</div>
