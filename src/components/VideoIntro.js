@@ -10,7 +10,7 @@ const VideoIntro = () => {
                         <div className='video-embed-container'>
 							<iframe
 								className='intro-video'
-								src='https://www.youtube.com/embed/DbEpaiI1Qls?autoplay=0&rel=0'
+								src='https://www.youtube.com/embed/DbEpaiI1Qls?cc_load_policy=1&cc_lang_pref=en&autoplay=0&rel=0'
 								frameBorder='0'
 								allow='encrypted-media'
 								allowFullScreen

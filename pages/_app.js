@@ -16,17 +16,17 @@ function MyApp({ Component, pageProps }) {
 					content='width=device-width, initial-scale=1, shrink-to-fit=no'></meta>
 				<title>Bob Le - Software Engineer</title>
 				<meta name='description' content={description} />
-				<meta name='image' content='img/seo.jpeg' />
+				<meta name='image' content='https://www.onlyboble.com/img/seo.jpeg' />
 				<meta name='twitter:title' content="Bob Le - Software Engineer" />
 				<meta
 					name='twitter:description'
 					content={description}
 				/>
-				<meta name='twitter:image' content='img/seo.jpeg' />
+				<meta name='twitter:image' content='https://www.onlyboble.com/img/seo.jpeg' />
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta itemProp='name' content="Bob Le - Software Engineer" />
 				<meta itemProp='description' content={description} />
-				<meta itemProp='image' content='img/seo.jpeg' />
+				<meta itemProp='image' content='https://www.onlyboble.com/img/seo.jpeg' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content="www.onlyboble.com" />
 				<meta property='og:title' content="Bob Le - Software Engineer" />
@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
 					property='og:description'
 					content={description}
 				/>
-				<meta property='og:image' content='img/seo.jpeg' />
+				<meta property='og:image' content='https://www.onlyboble.com/img/seo.jpeg' />
 			</Head>
 			<Component {...pageProps} />
 		</Fragment>
