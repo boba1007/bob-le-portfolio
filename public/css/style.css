@@ -2164,7 +2164,7 @@ a:focus {
 		padding: 5px;
 		right: 10px;
 		top: 10px;
-		background-color: var(--sc);
+		background-color: #0E0E0E;
 		border: 1px solid var(--dc);
 	}
 	.resumo_fn_navigation{width: 100%;}
@@ -2403,7 +2403,7 @@ body.light .fn__nav:after{background-color: #ddd;}
 body.light .fn__nav a{color: #333;}
 body.light .fn__nav a:hover{color: #111;}
 body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-color: #fafafa;}
-@media(max-width:768px){body.light .resumo_fn_right .menu_trigger{background-color: var(--sc);border: 1px solid var(--dc);}}
+body.light .resumo_fn_right .menu_trigger{background-color: var(--sc);border: 1px solid var(--dc);}
 
 
 
