@@ -2403,7 +2403,7 @@ body.light .fn__nav:after{background-color: #ddd;}
 body.light .fn__nav a{color: #333;}
 body.light .fn__nav a:hover{color: #111;}
 body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-color: #fafafa;}
-body.light .resumo_fn_right .menu_trigger{background-color: var(--sc);border: 1px solid var(--dc);}
+body.light .resumo_fn_right .menu_trigger{background-color: var(--sc);}
 
 
 
