@@ -6,7 +6,7 @@ const Home = () => {
 					{/* Main Title */}
 					<div className='resumo_fn_main_title'>
 						<h3 className='subtitle'>Introduction</h3>
-						<h3 className='title'>Lead Software Engineer</h3>
+						<h3 className='title'>Software Engineer</h3>
 						<p className='desc'>
 							Innovative and proactive Software Engineer capable of developing
 							robust, scalable website and application designs for demanding

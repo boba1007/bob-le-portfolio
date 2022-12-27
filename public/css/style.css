@@ -651,6 +651,15 @@ a:focus {
 	letter-spacing: 0;
 	margin-bottom: 57px;
 }
+.resumo_fn_main_title img {
+	width: 300px;
+}
+
+@media (max-width: 768px) {
+	.resumo_fn_main_title img {
+		width: 250px;
+	}
+}
 /*------------------------------------------------------------------*/
 /*	06) About Section
 /*------------------------------------------------------------------*/
@@ -683,7 +692,7 @@ a:focus {
 	padding: 0;
 }
 .resumo_fn_about_info table th{
-	padding: 9px 10px 9px 0;
+	padding: 9p 0 9px 0;
 	font-size: 18px;
 	letter-spacing: 0;
 	color: #ddd;
@@ -923,6 +932,12 @@ a:focus {
 	z-index: 2;
 	color: #000;
 	font-weight: 600;
+}
+
+@media (max-width: 768px) {
+	.resumo_fn_boxed_list .item{
+		padding: 40px 20px;
+	}
 }
 /*------------------------------------------------------------------*/
 /*	10) Progress Bar
@@ -1401,6 +1416,11 @@ a:focus {
 	color: var(--mc);
 	font-weight: 500;
 	font-size: 24px;
+}
+@media (max-width: 768px) {
+	.resumo_fn_service_list .item_left{
+		padding: 40px 20px;
+	}
 }
 /*------------------------------------------------------------------*/
 /*	14) Partners
@@ -2144,8 +2164,8 @@ a:focus {
 		padding: 5px;
 		right: 10px;
 		top: 10px;
-		background-color: #151412;
-		border: 1px solid #151412;
+		background-color: var(--sc);
+		border: 1px solid var(--dc);
 	}
 	.resumo_fn_navigation{width: 100%;}
 	.resumo_fn_right .right_in{height: auto !important;}
@@ -2180,7 +2200,7 @@ a:focus {
 	h5 { font-size: 16px; }
 	h6 { font-size: 14px; }
 	.resumo_fn_contact_info h3{max-width: 100%;}
-	.resumo_fn_main_title .title{font-size: 36px;}
+	.resumo_fn_main_title .title{font-size: 30px;}
 	.resumo_fn_partners li{width: 100%;}
 	.resumo_fn_service_list .item{
 		-webkit-flex-direction: column;
@@ -2225,7 +2245,7 @@ a:focus {
 	.resumo_fn_about_info th:nth-child(1){padding-bottom: 0;}
 }
 
-@media(max-width: 480px){.container{padding: 0 10px;}.container.noright{padding-right: 10px;}}
+@media(max-width: 480px){.container{padding: 0 18px;}.container.noright{padding-right: 10px;}}
 
 /*------------------------------------------------------------------*/
 /*	23) Light Version
