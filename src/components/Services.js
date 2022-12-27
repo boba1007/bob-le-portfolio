@@ -34,7 +34,7 @@ const Services = () => {
 							<li>
 								<div className='item'>
 									<div className='item_left'>
-										<h3>Develop rebust solutions.</h3>
+										<h3>Develop robust solutions.</h3>
 										<p>
 											High understanding of products and technologies involved
 											to develop robust, responsive, and cutting-edge solutions
