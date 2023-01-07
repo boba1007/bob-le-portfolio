@@ -37,7 +37,7 @@
 :root{
   --mc: #fe0300;
 	--tc: #ffff00;
-	--sc: #f3f9f8;
+	--sc: #F9FAFB;
 	--dc: #918F90;
 	--ds: #201521;
 	--bc: #0E0E0E;
@@ -652,7 +652,7 @@ a:focus {
 	margin-bottom: 57px;
 }
 .resumo_fn_main_title img {
-	width: 300px;
+	width: 350px;
 }
 
 @media (max-width: 768px) {
@@ -2250,7 +2250,7 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	23) Light Version
 /*------------------------------------------------------------------*/
-body.light{background-color: #f3f9f8; color: #201521;}
+body.light{background-color: #F9FAFB; color: #201521;}
 body.light h1,
 body.light h2,
 body.light h3,
@@ -2272,10 +2272,10 @@ body.light .resumo_fn_cv_btn a:hover{border-color: var(--mc);}
 body.light .resumo_fn_cv_btn .icon{color: var(--ds);}
 body.light .resumo_fn_tabs .tab_header li:after{background-color: #201521}
 body.light .resumo_fn_service_list .item,
-body.light .resumo_fn_boxed_list .item{background-color: #f3f9f8;border-color: #201521;}
+body.light .resumo_fn_boxed_list .item{background-color: #F9FAFB;border-color: #201521;}
 body.light .resumo_fn_boxed_list .item:after{background-color: transparent}
 body.light .resumo_fn_service_list .item_right{border-color: #201521}
-body.light .resumo_fn_partners a{background-color: #f3f9f8;}
+body.light .resumo_fn_partners a{background-color: #F9FAFB;}
 body.light .resumo_fn_partners a:hover{background-color: #eee;}
 body.light h1>a, 
 body.light h2>a,
