@@ -72,7 +72,7 @@ const Layout = ({ children }) => {
 						<Triggger open={() => triggerMenu()} />
 						{/* /Menu Triggger */}
 						{/* Panel Content */}
-						<PanelContent />
+						<PanelContent darkMode={isDarkMode}/>
 						{/* /Panel Content */}
 					</div>
 					{/* /Main Right Part */}

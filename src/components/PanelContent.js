@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const PanelContent = () => {
+const PanelContent = ({darkMode}) => {
 	useEffect(() => {
 		const Typed = require("typed.js");
 		new Typed(".animated_title", {
@@ -18,6 +18,7 @@ const PanelContent = () => {
 			backDelay: 3e3,
 		});
 	}, []);
+	let imageUrl = !darkMode ? "img/profile/bob4.jpeg" : 'img/profile/bob2.png';
 	return (
 		<div className='right_in'>
 			<div className='right_top'>
@@ -26,7 +27,7 @@ const PanelContent = () => {
 				<div className='img_holder'>
 					<a href="/#video-intro">
 						<img src='img/thumb/square.jpg' alt='image' />
-						<div className='abs_img' data-bg-img='img/profile/bob2.png' />
+						<div className='abs_img' style={{ backgroundImage: `url(${imageUrl})` }} />
 					</a>
 				</div>
 				<div className='title_holder'>
